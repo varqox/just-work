@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Just work</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+
+  <center id="duration">
+    <h1>Duration</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td>Hours: </td>
+          <td><input type="number" min="0" max="60" step="1" name="hours" value="0"></td>
+        </tr>
+        <tr>
+          <td>Minutes: </td>
+          <td><input type="number" min="0" max="60" step="1" name="minutes" value="40"></td>
+        </tr>
+        <tr>
+          <td>Seconds: </td>
+          <td><input type="number" min="0" max="60" step="1" name="seconds" value="0"></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="begin-work">Begin work</button>
+  </center>
+
+  <script defer>
+    require('./renderer.js')
+  </script>
+</html>

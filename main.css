@@ -1,0 +1,90 @@
+/** {
+	box-sizing: border-box;
+}*/
+body {
+	font-size: 24px;
+	font-family: 'BlinkMacSystemFont', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+}
+
+#duration,
+#duration input {
+	font-size: 24px;
+}
+#duration td {
+	padding: 1px 4px;
+}
+#duration input {
+	padding: 1px 4px;
+}
+#duration h1 {
+	font-size: 50px;
+	font-weight: normal;
+	margin: 20px;
+}
+#begin-work {
+	font-size: 32px;
+	background: #bada55;
+	padding: 8px 16px;
+	border: 3px solid #9ebf31;
+	border-radius: 4px;
+	margin: 10px;
+	outline: none;
+	user-select: none;
+	cursor: pointer;
+}
+#begin-work:hover,
+#begin-work:active,
+#begin-work:focus {
+	background: #accd42;
+	border: 3px solid #86a12b;
+}
+
+#cancel,
+#save {
+	font-size: 24px;
+	background: #ddd;
+	padding: 6px 12px;
+	border: 3px solid #a5a5a5;
+	border-radius: 4px;
+	margin: 8px;
+	outline: none;
+	user-select: none;
+	cursor: pointer;
+}
+#cancel:hover,
+#cancel:active,
+#cancel:focus,
+#save:hover,
+#save:active,
+#save:focus {
+	background: #ccc;
+	border: 3px solid #888;
+}
+
+#success {
+	margin: 4px 0 16px;
+}
+#success > p > span {
+	background: #bada55;
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+#success > div {
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+#success > span {
+	margin: 5px 2px;
+	font-size: 18px;
+	padding: 5px 6px;
+	border-radius: 4px;
+	background: #fbfbfb;
+	border: 1px solid #bbb;
+	user-select: none;
+	cursor: pointer;
+}
+#success > span.checked {
+	color: white;
+	background: #5bc0de;
+	border: 1px solid #0ba6d5;
+}

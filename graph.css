@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: 'BlinkMacSystemFont', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+}
+table {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	border-spacing: 0;
+	border: 1px solid #a2a2a2;
+	border-radius: 4px;
+}
+table td {
+    padding: 4px 8px;
+	text-align: left;
+	vertical-align: middle;
+	border-top: 1px solid #a2a2a2;
+	border-left: 1px solid #a2a2a2;
+}
+table th {
+	padding: 7px 13px;
+	line-height: 12px;
+	text-align: left;
+	vertical-align: middle;
+	border-top: 1px solid #a2a2a2;
+	border-left: 1px solid #a2a2a2;
+}
+table tr:first-child th,
+table tr:first-child td {
+	border-top: none;
+}
+table tr td:first-child, table tr th:first-child {
+	border-left: none;
+}
+table tr:nth-child(4) > *.marked {
+	background: #91e3fb;
+}
+table tr:nth-child(5) > *.marked {
+	background: #f19999;
+}
+table tr:nth-child(6) > *.marked {
+	background: #a6f191;
+}
+table tr:nth-child(7) > *.marked {
+	background: #f7d278;
+}
+table tr:nth-child(8) > *.marked {
+	background: #bb97f1;
+}
+table tr:nth-child(9) > *.marked {
+	background: black;
+}
+table tr:nth-child(1) td,
+table tr:nth-child(2) td,
+table tr:nth-child(3) td {
+	text-align: center;
+}
+table td.vl + td {
+	border-left: none;
+}
+table td.vl {
+	padding: 0;
+	min-width: 4px;
+	border-left: none;
+	margin-left: -10px;
+	margin-right: -10px;
+	border-top-color: #888;
+	background: #888;
+}
